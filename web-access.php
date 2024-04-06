@@ -9,7 +9,7 @@ function my_web_search( $context, $query, $options = [] ) {
     $lastMessage = $query->get_message();
     
     // Enter your API key here
-    $apiKey = 'AIzaSyDpP-2xSTnI2ysQlek5rLxiaYxNxcWMoXg';
+    $apiKey = 'AIzaSyBxdaTOA0UEaMIKAJ_zegHgpeWY3cQhkOE';
 
     // Enter your Custom Search Engine ID here
     $engineId = '11cf69c0eb0d54e5a';
