@@ -2,10 +2,10 @@
 A real-time bug detection AI platform for web3 projects and smart contracts for web3 projects and smart contracts
 
 ##What is Bounty Hunter 1.0?
--> Bounty Hunter 1.0 is an opensource real-time bug detection platform for web3 projects and crypto smart contracts. 
+-> Bounty Hunter 1.0 is an open-source real-time bug detection platform for web3 projects and crypto smart contracts. 
 
 ##Why is it different?
--> BH1, which is Bounty Hunter 1.0 is a real-time, AI-enabled interface which can tell analyse real-time risks by scraping the interent using multiple web scrapping sources like Carbon, Google Custom Search, etc. and then argument to find vulnerabilities in the code.
+-> BH1, Bounty Hunter 1.0 is a real-time, AI-enabled interface that can analyze real-time risks by scraping the internet using multiple web scrapping sources like Carbon, Google Custom Search, etc., and then argue to find code vulnerabilities.
 
 ##Why projects needs to integrate BH1 into their project?
-BH1's knowledge and scope is not limited with any time restriction. It can analyse the web in real-time and uses a knowledge-context-fulmilment mechanism to build run realtime resources. 
+Any time restriction does not limit BH1's knowledge and scope. It can analyze the web in real time and uses a knowledge-context-fulfillment mechanism to build and run real-time resources. 
