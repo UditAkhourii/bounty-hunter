@@ -23,42 +23,42 @@ class Meow_MWAI_API {
 			add_filter( 'mwai_allow_public_api', [ $this, 'auth_via_bearer_token' ], 10, 3 );
 		}
 
-		register_rest_route( 'mwai/v1', '/Auth', array(
+		register_rest_route( 'bh1/v1', '/Auth', array(
 			'methods' => 'GET',
 			'callback' => array( $this, 'Auth' ),
 			'permission_callback' => function( $request ) {
 				return $this->core->can_access_public_api( 'Auth', $request );
 			},
 		) );
-		register_rest_route( 'mwai/v1', '/Text', array(
+		register_rest_route( 'bh1/v1', '/Text', array(
 			'methods' => 'POST',
 			'callback' => array( $this, 'rest_Text' ),
 			'permission_callback' => function( $request ) {
 				return $this->core->can_access_public_api( 'Text', $request );
 			},
 		) );
-		register_rest_route( 'mwai/v1', '/ImageQuery', array(
+		register_rest_route( 'bh1/v1', '/ImageQuery', array(
 			'methods' => 'POST',
 			'callback' => array( $this, 'rest_ImageQuery' ),
 			'permission_callback' => function( $request ) {
 				return $this->core->can_access_public_api( 'ImageQuery', $request );
 			},
 		) );
-		register_rest_route( 'mwai/v1', '/Vision', array(
+		register_rest_route( 'bh1/v1', '/Vision', array(
 			'methods' => 'POST',
 			'callback' => array( $this, 'rest_Vision' ),
 			'permission_callback' => function( $request ) {
 				return $this->core->can_access_public_api( 'Vision', $request );
 			},
 		) );
-		register_rest_route( 'mwai/v1', '/Json', array(
+		register_rest_route( 'bh1/v1', '/Json', array(
 			'methods' => 'POST',
 			'callback' => array( $this, 'rest_Json' ),
 			'permission_callback' => function( $request ) {
 				return $this->core->can_access_public_api( 'Jsony', $request );
 			},
 		) );
-		register_rest_route( 'mwai/v1', '/moderationCheck', array(
+		register_rest_route( 'bh1/v1', '/moderationCheck', array(
 			'methods' => 'POST',
 			'callback' => array( $this, 'rest_moderationCheck' ),
 			'permission_callback' => function( $request ) {
@@ -67,7 +67,7 @@ class Meow_MWAI_API {
 		) );
 
 		if ( $this->chatbot_module ) {
-			register_rest_route( 'mwai/v1', '/Chat', array(
+			register_rest_route( 'bh1/v1', '/Chat', array(
 				'methods' => 'POST',
 				'callback' => array( $this, 'rest_Chat' ),
 				'permission_callback' => function( $request ) {
